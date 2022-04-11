@@ -35,7 +35,6 @@ public class Ejercicio : MonoBehaviour
         if (dias < 3)
         {
             Debug.Log("La cantidad de dias es muy bajo, intente de nuevo");
-            Debug.Log("El costo de todos estos alimentos es un total de " + Precio + " pesos");
         }
 
         else if (codigo == "G")
