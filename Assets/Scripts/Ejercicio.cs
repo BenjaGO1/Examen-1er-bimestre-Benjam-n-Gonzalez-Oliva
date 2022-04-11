@@ -56,7 +56,7 @@ public class Ejercicio : MonoBehaviour
 
         else if (codigo == "PG")
         {
-            gramos = 400 * (dias);
+            gramos = 700 * (dias);
             Precio = 80 * (gramos / 100);
             Debug.Log("Para ese período se necesitan " + gramos + " gramos de alimento");
             Debug.Log("El costo de todos estos alimentos es un total de " + Precio + " pesos");
